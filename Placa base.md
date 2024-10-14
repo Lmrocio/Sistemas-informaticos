@@ -16,13 +16,16 @@ permanezca inalterada.
 
 ## Formato 
 
-  Las placas bases necesitan tener un **formato** o factor de forma que cuente con unas características mecánicas que sean compatibles con la caja en la que tendremos dicha placa. Dichas características tratan de la distribución de los componentes; por ejemplo, la posición de los tornillos, la dimensión de los elementos, etc. Algunos de los distintos formatos que fueron aprobados a lo largo de la historia son:
+  Las placas bases necesitan tener un **formato** o factor de forma que cuente con unas características mecánicas que sean compatibles con la caja en la que tendremos dicha placa. Dichas características tratan de la distribución de los componentes; por ejemplo, la posición de los tornillos, la dimensión de los elementos, etc. La elección de una placa base va a depender del procesador, el tipo de sistema que quieras construir y las características adicionales que necesites. Algunos de los distintos formatos que fueron aprobados a lo largo de la historia son:
 
 - **XT** o _Extended Technology_, desarrollado en 1983 y que estableció el tamaño de un folio A4 con un único conector externo para el teclado.
 - **AT** o _Advanced Technology_, es uno de los formatos más grande de la historia con unas dimensiones de 350x279x330mm. Además, estableció un conector de potencia conformado por dos partes.
-- **ATX** o _Advanced Technology Extended_, las conexiones exteriores aparecen como un panel de E/S y estableció un conector de veinticuatro pines de energía. Actualmente, podemos encontrarlo con algunas modificaciones que aumentan la energía o reducen su tamaño.
+- **ATX** o _Advanced Technology Extended_, las conexiones exteriores aparecen como un panel de E/S y estableció un conector de veinticuatro pines de energía. Actualmente, podemos encontrarlo con algunas modificaciones que aumentan la energía o reducen su tamaño ya que posee varias ranuras de puertos, permitiendo gran variedad de componentes.
 - **ITX** o _Information Technology Extended_ , encontramos un diseño creado para la integración de un gran número de componentes. Así mismo, cuenta con el hardware gráfico en su propio chipset, por lo que no es necesario instalar una tarjate gráfica.
 - **BTX** o _Balanced Technology Extended_, fue creada para solventar los problemas de uido y refrigeración; no obstante, no fue bien recibido por la comunidad.
+- **MICRO-ATX**, más pequeñas que las ATX manteniendo las prestaciones de esta, aunque poseen menos ranuras de puertos.
+- **MINI-ITX**, son las más pequeñas, pensadas para dispositivos compactos de bajo consumo energético. Pese a contar con pocas ranuras, permiten la instalación de los componentes más básicos.
+- **E-ATX** o _Extended ATX_, es una versión más grande que las ATX, ofreciendo un mayor número de ranuras (y, por tanto, permitiendo una mayor adicción de componentes). Son empleados para dispositivos de alto rendimeinto.
 - **DTX3​**, pensadas para los dispositivos de pequeño formato. Hacen uso de un conector de energía de veinticuatro pines y de un conector adicional de 2 × 2.
 - **Formatos privativos**, trata de un esquema de hardware cerrado, dando lugar a placas bases incompatibles con los formatos más inusuales. 
 
@@ -34,14 +37,12 @@ permanezca inalterada.
   1. _Conectores de alimentación_: Suministra los voltajes e intensidades necesarias para el funcionamiento.
   2. _Puertos de CPU_: Podemos encontrar un único zócalo, siendo denominado **monoprocesador**, o más de uno, denominado **multiprocesador**.
   3. _Ranura de RAM_: Suelen aparecen entre 2 a 6 ranuras en la misma placa.
-  4. _Chipset_: 
-  5. 
-
-El chipset es una serie o conjunto de circuitos electrónicos, que gestionan las transferencias de datos entre los diferentes componentes de la computadora (procesador, memoria, tarjeta gráfica, unidad de almacenamiento secundario, etcétera).
-
-El chipset, generalmente se divide en dos secciones:
-
-Puente norte (northbridge): gestiona la interconexión entre el microprocesador, la memoria RAM y la unidad de procesamiento gráfico.
-Puente sur (southbridge): gestiona la interconexión entre los periféricos y los dispositivos de almacenamiento, como los discos duros o las unidades de disco óptico.
-Las nuevas líneas de procesadores de escritorio tienden a integrar el propio controlador de memoria dentro del procesador.
-
+  4. _Chipset_: Es un conjunto de circuitos electrónicos encargados de gestionar las transferencias de datos entre los componentes del ordenador. Estos se dividen en dos secciones:
+     - **Puente norte** o _northbrigde_: opera la conexión entre el micropocesador, la memoria RAM y la unidad de procesamiento gráfico.
+     - **Puente sur** o _southbrigde_: gestiona la conexión entre los periféricos y los dispositivos de almacenamiento.
+  5. _CMOS_: Es una pequeña memoria información importante mientras el dispositivo no está alimentado por electricidad.
+  6. _BIOS_: Es un programa que se encarga de la interfaz entre el micropocesador y algunos periféricos. La BIOS inicia, prueba el hardware del sistema y arranca el sistema operativo contenido en un dispositivo de almacenamiento.
+  7. _BUS frontal_: El cual conecta el micropocesador con el chipset.
+  8. _BUS de memoria_: Conecta al chipset con la memoria temporal.
+  9. _BUS de expansión_ o BUS E/S: Conecta al microprocesador con los conectores de E/S (como los puertos USB, conectores jacks, HDMI, DVI, etc) y las ranuras de expansión.
+  10. _Ranuras de expansión_: Son slots o receptáculos que acogen tarjetas de expansión, con las cuales podemos añadir características para aumentar el rendimiento del ordenador). Se tratan de puertos como: ISA (Industry Standard Architecture), PCI (Peripheral Component Interconnect), AGP (Accelerated Graphics Port) o PCIe (Peripheral Componente Interconnect Express).
