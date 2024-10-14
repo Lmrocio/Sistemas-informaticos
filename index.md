@@ -2,7 +2,7 @@
 
 ## Evolución
 
-  > La **placa base**, conocida como placa madre o placa principal, es una tarjeta de circuito impreso que conecta los componentes que conforman un ordenador. Se       conforma de una serie de circuitos integrados que veremos en el apartado `Componentes`
+  > La **placa base**, conocida como placa madre o placa principal, es una tarjeta de circuito impreso que conecta los componentes que conforman un ordenador. Se       conforma de una serie de circuitos integrados que veremos en el apartado [`Componentes`](https://lmrocio.github.io/Sistemas-informaticos/)
 
   Antes de su invención, los sistemas informáticos eran ensamblados en **mainframes**, con un conjunto de engranajes unidos a un panel posterior; para ello, se requería cables que unían las clavijas del conector de la tarjeta. Este sistema fue reemplazado por las placas de circuito impreso. Los primeros ordenadores tenían una estructura simple con firmware que almacenaban las intrucciones acerca del comportamiento del ordenador. El problema que suponía era que, con cada cambio, era necesario **reescribir el almacenamiento del firmware**; es decir, si el usuario quería cambiar un componente de su dispositivo, debía, además, reescribir el firmware con la información necesario para el nuevo componente.
 
